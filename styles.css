@@ -43,6 +43,8 @@ p{
 .intro, .main-content{
     display: flex;
     flex-direction: column;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 
@@ -58,6 +60,8 @@ p{
     min-height: 250px;
     text-align: center;
     justify-content: center;
+    background-image: url("/images/intro-bg.png");
+    background-size: cover;
 }
 
 /* ====================
@@ -65,8 +69,8 @@ p{
    ==================== */
 
 .main-content{
-    padding: 2.5em 2em 0 2em;
     align-items: center;
+    padding-top: 2.5em;
     
 }
 
@@ -92,7 +96,7 @@ p{
 
 @media (min-width: 576px){
     h1{
-        font-size: 3.25rem;
+        font-size: 5vw;
     }
     h2{
         font-size: 2.625rem;
