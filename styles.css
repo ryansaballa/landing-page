@@ -91,10 +91,26 @@ p{
    ================= */
 
 @media (min-width: 576px){
+    h1{
+        font-size: 3.25rem;
+    }
+    h2{
+        font-size: 2.625rem;
+    }
+    .beta-text{
+        font-size: 1.25rem;
+    }
     body{
         display: flex;
     }
     .intro, .main-content{
         flex: 1;
+    }
+    .intro{
+        min-height: 100vh;
+    }
+    .main-content{
+        justify-content: center;
+        padding-top: 0px;
     }
 }
