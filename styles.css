@@ -94,10 +94,7 @@ p{
     body{
         display: flex;
     }
-    .intro{
-        width: 50%
-    }
-    .main-content{
-        width: 50%;
+    .intro, .main-content{
+        flex: 1;
     }
 }
