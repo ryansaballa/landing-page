@@ -89,14 +89,8 @@ p{
     Form
    ================= */
    
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
-
 input{
+    width: 100%;
     margin-bottom: 0.75em;
     padding: 0.5em;
 }
