@@ -123,7 +123,8 @@ input:focus {
     margin-top: 1em;
 }
 
-.btn:hover{
+.btn-primary:hover,
+.btn-primary:focus {
     background-color: #b7a7f6;
 }
 
